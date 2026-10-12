@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diaz Grande Chris Angel</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- Metadatos personalizados -->
+    <meta name="theme-color" content="#2091F9">
+    <meta name="title" content="Proyecto DiazProyec4">
+    <meta name="description"
+        content="Proyecto personal de Diaz Grande Chris Angel: aplicando CSS moderno con Flexbox, Grid y animaciones.">
+
+    <!-- Open Graph (para compartir en redes sociales) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://diazproyec4.github.io/">
+    <meta property="og:title" content="Proyecto DiazProyec4">
+    <meta property="og:description"
+        content="Descubre cómo Diaz Grande Chris Angel aplica CSS moderno para crear páginas web atractivas y adaptables.">
+    <meta property="og:image" content="./images/css.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Proyecto DiazProyec4">
+    <meta name="twitter:description"
+        content="Proyecto personal de Chris Angel con Flexbox, Grid y animaciones.">
+    <meta name="twitter:image" content="./images/css.jpg">
+</head>
+
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="hero" id="inicio">
+
+        <nav class="nav container">
+
+            <div class="nav__logo">
+                <h2 class="nav__title">Curso CSS.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="#acerca" class="nav__links">Acerca de</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="#planes" class="nav__links">Planes</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="#preguntas" class="nav__links">Preguntas</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg"
+                     class="nav__close"
+                     alt="Cerrar menú">
+
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg"
+                     class="nav__img"
+                     alt="Abrir menú">
+            </div>
+
+        </nav>
+
+        <section class="hero__container container">
+
+            <h1 class="hero__title">
+                Aprende CSS3 desde cero hasta dominarlo.
+            </h1>
+
+            <p class="hero__paragraph">
+                Aprende a transformar documentos HTML en páginas web
+                atractivas. Descubre cómo utilizar colores, tipografías,
+                distribuciones, efectos visuales y animaciones para
+                construir tus propios proyectos.
+            </p>
+
+            <a href="#acerca" class="cta">Comienza ahora</a>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <!-- ACERCA DEL CURSO -->
+        <section class="container about" id="acerca">
+
+            <h2 class="subtitle">¿Qué aprenderás en este curso?</h2>
+
+            <p class="about__paragraph">
+                Conocerás las herramientas fundamentales de CSS:
+                selectores, modelo de caja, Flexbox, CSS Grid,
+                posicionamiento, variables, animaciones y diseño
+                adaptable para diferentes dispositivos.
+            </p>
+
+            <div class="about__main">
+
+                <article class="about__icons">
+
+                    <img src="./images/shapes.svg"
+                         class="about__icon"
+                         alt="Estructura de una página web">
+
+                    <h3 class="about__title">CSS Layouts</h3>
+
+                    <p class="about__paragrah">
+                        Aprende a distribuir y alinear elementos con
+                        Flexbox y CSS Grid. Comprende el modelo de caja,
+                        los márgenes, el relleno y el posicionamiento
+                        para organizar correctamente tus páginas web.
+                    </p>
+
+                </article>
+
+                <article class="about__icons">
+
+                    <img src="./images/paint.svg"
+                         class="about__icon"
+                         alt="Diseño y animaciones">
+
+                    <h3 class="about__title">Animaciones</h3>
+
+                    <p class="about__paragrah">
+                        Personaliza tus diseños mediante colores,
+                        sombras, bordes y transiciones. Utiliza
+                        animaciones CSS con fotogramas clave para
+                        crear movimientos y efectos visuales.
+                    </p>
+
+                </article>
+
+                <article class="about__icons">
+
+                    <img src="./images/code.svg"
+                         class="about__icon"
+                         alt="Código de programación">
+
+                    <h3 class="about__title">Sass y CSS moderno</h3>
+
+                    <p class="about__paragrah">
+                        Descubre cómo organizar tus estilos y reutilizar
+                        código. Conoce Sass, un preprocesador que permite
+                        utilizar características como variables,
+                        anidamiento y módulos antes de generar CSS.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CONOCIMIENTOS -->
+        <section class="knowledge">
+
+            <div class="knowledge__container container">
+
+                <div class="knowledege__texts">
+
+                    <h2 class="subtitle">
+                        Curso completo de CSS3.
+                        ¡Domina el diseño web!
+                    </h2>
+
+                    <p class="knowledge__paragraph">
+                        CSS significa Cascading Style Sheets,
+                        o hojas de estilo en cascada. Es el lenguaje
+                        utilizado para controlar la presentación visual
+                        de documentos HTML.
+
+                        <br><br>
+
+                        Con CSS puedes modificar los colores, las fuentes,
+                        los espacios, las dimensiones y la distribución
+                        de los elementos. También puedes adaptar una
+                        página a computadoras, tabletas y teléfonos
+                        mediante reglas de diseño adaptable.
+
+                        <br><br>
+
+                        Flexbox facilita la alineación en filas o
+                        columnas, mientras que CSS Grid permite organizar
+                        elementos mediante filas y columnas al mismo
+                        tiempo.
+                    </p>
+
+                    <a href="#planes" class="cta">Explora los contenidos</a>
+
+                </div>
+
+                <figure class="knowledge__picture">
+
+                    <img src="./images/macbook.jpg"
+                         class="knowledge__img"
+                         alt="Computadora portátil para desarrollo web">
+
+                </figure>
+
+            </div>
+
+        </section>
+
+        <!-- PLANES -->
+        <section class="price container" id="planes">
+
+            <h2 class="subtitle">
+                Elige tu ruta de aprendizaje
+            </h2>
+
+            <p class="about__paragraph">
+                Estas opciones representan distintas áreas de estudio
+                de CSS. Los precios son ejemplos ilustrativos y no
+                corresponden a tarifas verificadas de un curso real.
+            </p>
+
+            <div class="price__table">
+
+                <!-- FLEXBOX -->
+                <div class="price__element">
+
+                    <p class="price__name">Flexbox</p>
+
+                    <h3 class="price__price">Gratis</h3>
+
+                    <div class="price__items">
+
+                        <p class="price__features">
+                            Modelo de caja
+                        </p>
+
+                        <p class="price__features">
+                            Filas y columnas flexibles
+                        </p>
+
+                        <p class="price__features">
+                            Alineación de elementos
+                        </p>
+
+                    </div>
+
+                    <a href="#preguntas" class="price__cta">
+                        Empieza ahora
+                    </a>
+
+                </div>
+
+                <!-- GRID -->
+                <div class="price__element price__element--best">
+
+                    <p class="price__name">Grid</p>
+
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+
+                        <p class="price__features">
+                            Filas y columnas
+                        </p>
+
+                        <p class="price__features">
+                            Grid explícito e implícito
+                        </p>
+
+                        <p class="price__features">
+                            Diseños adaptables
+                        </p>
+
+                    </div>
+
+                    <a href="#preguntas" class="price__cta">
+                        Conoce más
+                    </a>
+
+                </div>
+
+                <!-- ANIMACIONES -->
+                <div class="price__element">
+
+                    <p class="price__name">Animaciones</p>
+
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+
+                        <p class="price__features">
+                            Transiciones
+                        </p>
+
+                        <p class="price__features">
+                            Animaciones con keyframes
+                        </p>
+
+                        <p class="price__features">
+                            Efectos interactivos
+                        </p>
+
+                    </div>
+
+                    <a href="#preguntas" class="price__cta">
+                        Descubre los temas
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CARRUSEL DE CONTENIDOS -->
+        <section class="testimony" id="experiencias">
+
+            <div class="testimony__container container">
+
+                <img src="./images/leftarrow.svg"
+                     class="testimony__arrow"
+                     id="before"
+                     alt="Contenido anterior">
+
+                <!-- CONTENIDO 1 -->
+                <section class="testimony__body testimony__body--show"
+                         data-id="1">
+
+                    <div class="testimony__texts">
+
+                        <h2 class="subtitle">
+                            Fundamentos de CSS
+                            <span class="testimony__course">
+                                Aprende las bases.
+                            </span>
+                        </h2>
+                        <p class="testimony__review">
+                            Comienza con los selectores, las propiedades
+                            y los valores de CSS. Aprende a cambiar
+                            colores, fuentes, tamaños y espacios.
+                            Comprender la cascada, la herencia y la
+                            especificidad te ayudará a escribir estilos
+                            más claros y predecibles.
+                        </p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpeg"
+                             class="testimony__img"
+                             alt="Imagen del aprendiz de CSS">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">
+                            Flexbox y Grid
+                            <span class="testimony__course">
+                                Organiza tus diseños.
+                            </span>
+                        </h2>
+
+                        <p class="testimony__review">
+                            Flexbox permite distribuir y alinear elementos
+                            a lo largo de una fila o columna. CSS Grid
+                            permite organizar elementos en una cuadrícula
+                            de filas y columnas. Ambas herramientas
+                            pueden combinarse para construir interfaces
+                            ordenadas y flexibles.
+                        </p>
+
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg"
+                             class="testimony__img"
+                             alt="Imagen ilustrativa de distribuciones CSS">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+
+                    <div class="testimony__texts">
+
+                        <h2 class="subtitle">
+                            Diseño responsive
+                            <span class="testimony__course">
+                                Adapta tus páginas.
+                            </span>
+                        </h2>
+
+                        <p class="testimony__review">
+                            El diseño responsive permite que una página
+                            se adapte a pantallas de distintos tamaños.
+                            Para conseguirlo puedes utilizar medidas
+                            flexibles, imágenes adaptables, contenedores
+                            fluidos y media queries.
+                        </p>
+
+                    </div>
+
+                    <figure class="testimony__picture">
+
+                        <img src="./images/face3.jpg"
+                             class="testimony__img"
+                             alt="Imagen ilustrativa de diseño adaptable">
+
+                    </figure>
+
+                </section>
+
+                <!-- CONTENIDO 4 -->
+                <section class="testimony__body" data-id="4">
+
+                    <div class="testimony__texts">
+
+                        <h2 class="subtitle">
+                            Animaciones CSS
+                            <span class="testimony__course">
+                                Añade movimiento.
+                            </span>
+                        </h2>
+
+                        <p class="testimony__review">
+                            Las transiciones y las animaciones permiten
+                            crear cambios visuales progresivos y efectos
+                            de movimiento. Las transiciones se utilizan
+                            para suavizar cambios entre estados, mientras
+                            que @keyframes permite definir etapas de
+                            una animación.
+                        </p>
+
+                    </div>
+
+                    <figure class="testimony__picture">
+
+                        <img src="./images/face4.jpg"
+                             class="testimony__img"
+                             alt="Imagen ilustrativa de animaciones CSS">
+
+                    </figure>
+
+                </section>
+
+                <img src="./images/rightarrow.svg"
+                     class="testimony__arrow"
+                     id="next"
+                     alt="Contenido siguiente">
+
+            </div>
+
+        </section>
+
+        <!-- PREGUNTAS FRECUENTES -->
+        <section class="questions container" id="preguntas">
+
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+
+            <p class="questions__paragraph">
+                Resuelve tus dudas sobre las hojas de estilo,
+                las herramientas de diseño y los conocimientos
+                necesarios para comenzar a crear páginas web.
+            </p>
+
+            <section class="questions__container">
+
+                <!-- PREGUNTA 1 -->
+                <article class="questions__padding">
+
+                    <div class="questions__answer">
+
+                        <h3 class="questions__title">
+                            ¿Qué es CSS?
+
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg"
+                                     class="questions__img"
+                                     alt="Mostrar respuesta">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            CSS significa Cascading Style Sheets,
+                            traducido como hojas de estilo en cascada.
+                            Es un lenguaje que describe cómo se presentan
+                            visualmente los documentos HTML.
+
+                            Permite definir colores, fuentes, tamaños,
+                            márgenes, bordes, distribuciones y efectos
+                            visuales. HTML establece la estructura del
+                            contenido y CSS controla principalmente
+                            su apariencia.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PREGUNTA 2 -->
+                <article class="questions__padding">
+
+                    <div class="questions__answer">
+
+                        <h3 class="questions__title">
+                            ¿Qué aprenderé en este curso?
+
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg"
+                                     class="questions__img"
+                                     alt="Mostrar respuesta">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Aprenderás a utilizar selectores, propiedades
+                            y valores de CSS. También estudiarás el modelo
+                            de caja, Flexbox, CSS Grid, posicionamiento,
+                            variables personalizadas, pseudoclases,
+                            transiciones, animaciones y media queries.
+
+                            Estos conocimientos te permitirán diseñar
+                            páginas web con una estructura visual
+                            organizada y adaptable a diferentes
+                            dispositivos.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PREGUNTA 3 -->
+                <article class="questions__padding">
+
+                    <div class="questions__answer">
+
+                        <h3 class="questions__title">
+                            ¿Qué es CSS Grid?
+
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg"
+                                     class="questions__img"
+                                     alt="Mostrar respuesta">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            CSS Grid es un sistema de diseño bidimensional
+                            que permite organizar elementos mediante
+                            filas y columnas.
+
+                            Para utilizarlo, se establece display: grid
+                            en un contenedor. Después se pueden definir
+                            las columnas, las filas y el espacio entre
+                            los elementos.
+
+                            Es útil para crear galerías, distribuciones
+                            de páginas, paneles y otras interfaces
+                            que necesitan organizarse en una cuadrícula.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PREGUNTA 4 -->
+                <article class="questions__padding">
+
+                    <div class="questions__answer">
+
+                        <h3 class="questions__title">
+                            ¿Cuál es la diferencia entre Flexbox y Grid?
+
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg"
+                                     class="questions__img"
+                                     alt="Mostrar respuesta">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Flexbox está orientado principalmente a
+                            distribuir elementos en una dimensión,
+                            es decir, en una fila o columna.
+
+                            Grid permite trabajar con filas y columnas
+                            simultáneamente. Por eso es apropiado para
+                            distribuciones bidimensionales.
+
+                            Puedes combinar ambas herramientas dentro
+                            de un mismo proyecto, utilizando cada una
+                            donde resulte más conveniente.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PREGUNTA 5 -->
+                <article class="questions__padding">
+
+                    <div class="questions__answer">
+
+                        <h3 class="questions__title">
+                            ¿Necesito aprender HTML antes de CSS?
+
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg"
+                                     class="questions__img"
+                                     alt="Mostrar respuesta">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            Es recomendable conocer los fundamentos
+                            de HTML, ya que CSS se utiliza habitualmente
+                            para dar estilo a sus elementos.
+
+                            Puedes comenzar aprendiendo las etiquetas
+                            principales de HTML y después practicar
+                            cómo aplicar estilos mediante una hoja
+                            de CSS externa.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- PREGUNTA 6 -->
+                <article class="questions__padding">
+
+                    <div class="questions__answer">
+
+                        <h3 class="questions__title">
+                            ¿Qué es el diseño responsive?
+
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg"
+                                     class="questions__img"
+                                     alt="Mostrar respuesta">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">
+                            El diseño responsive es una forma de crear
+                            páginas que se adaptan a diferentes tamaños
+                            de pantalla.
+
+                            Se apoya en diseños flexibles, unidades
+                            relativas, imágenes adaptables y media
+                            queries para ajustar la presentación
+                            según las características del dispositivo.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+            <!-- INVITACIÓN FINAL -->
+            <section class="questions__offer">
+
+                <h2 class="subtitle">
+                    ¿Estás listo para aprender CSS?
+                </h2>
+
+                <p class="questions__copy">
+                    Comienza con los fundamentos, practica con ejemplos
+                    sencillos y avanza hacia diseños más completos.
+                    Escribir código, probarlo en el navegador y corregir
+                    errores son pasos importantes para aprender
+                    desarrollo web.
+                </p>
+
+                <a href="#acerca" class="cta">Aprende ahora</a>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer" id="contacto">
+
+        <section class="footer__container container">
+
+            <nav class="nav nav--footer">
+
+                <h2 class="footer__title">Curso CSS.</h2>
+
+                <ul class="nav__link nav__link--footer">
+
+                    <li class="nav__items">
+                        <a href="#inicio" class="nav__links">Inicio</a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#acerca" class="nav__links">Acerca de</a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#planes" class="nav__links">Planes</a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#preguntas" class="nav__links">Preguntas</a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#contacto" class="nav__links">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <!-- FORMULARIO DE SUSCRIPCIÓN -->
+            <form class="footer__form"
+                  action="https://formspree.io/f/mdeaznjq"
+                  method="POST">
+
+                <h2 class="footer__newsletter">
+                    Suscríbete a las novedades
+                </h2>
+
+                <div class="footer__inputs">
+
+                    <input
+                        type="email"
+                        placeholder="Correo electrónico:"
+                        class="footer__input"
+                        name="email"
+                        aria-label="Correo electrónico"
+                        autocomplete="email"
+                        required>
+
+                    <input
+                        type="submit"
+                        value="Registrarme"
+                        class="footer__submit">
+
+                </div>
+
+            </form>
+
+        </section>
+
+        <!-- REDES SOCIALES -->
+        <section class="footer__copy container">
+
+            <div class="footer__social">
+
+                <a href="https://www.facebook.com/"
+                   class="footer__icons"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Facebook">
+
+                    <img src="./images/facebook.svg"
+                         class="footer__img"
+                         alt="Facebook">
+
+                </a>
+                <a href="https://x.com/"
+                   class="footer__icons"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="X">
+
+                    <img src="./images/twitter.svg"
+                         class="footer__img"
+                         alt="X">
+                </a>
+                <a href="https://www.youtube.com/"
+                   class="footer__icons"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="YouTube">
+
+                    <img src="./images/youtube.svg"
+                         class="footer__img"
+                         alt="YouTube">
+                </a>
+            </div>
+            <h3 class="footer__copyright">
+                Proyecto de Diaz Grande Chris Angel @Diaz.gmail
+            </h3>
+        </section>
+    </footer>
+    <!-- ARCHIVOS JAVASCRIPT -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
+
